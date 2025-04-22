@@ -32,8 +32,6 @@ If you’re crossing borders, organizing locally, reporting injustice, or simply
 - `android_cheatsheet.md` — General Android privacy & security guide  
 - `tools.md` — Recommended open-source software for secure comms, storage, and browsing  
 - `burner_guide.md` — How to create and use burner identities/devices safely  
-
-Coming up...  
 - `border_crossing.md` — Mobile OPSEC tips for crossing hostile checkpoints  
 - `wifi_tracking.md` — Prevent passive location leaks and metadata trails  
 - `checklist.md` — OPSEC audit checklist for mobile devices  
