@@ -4,14 +4,20 @@
 
 ---
 
+⚠️ **Disclaimer – Educational Use Only**
+This content is provided strictly for **educational, informational, and defensive purposes**. It is intended to help individuals protect their privacy, maintain digital hygiene, and understand security best practices in legitimate contexts.
+This is **not** a guide for criminal activity, illegal behavior, or evasion of lawful authority. Any misuse of this information is solely the responsibility of the user. The authors and contributors do **not** condone or support unlawful conduct in any form.
+
+---
+
 ## 📚 Contents
 
 - `iphone_cheatsheet.md` — iOS 17+ privacy hardening guide
 - `android_cheatsheet.md` — General Android privacy & security guide
 - `tools.md` — Recommended open-source software for secure comms, storage, and browsing
-
-Coming soon:
 - `burner_guide.md` — How to create and use burner identities/devices safely
+
+Coming up...
 - `border_crossing.md` — Mobile OPSEC tips for crossing hostile checkpoints
 - `wifi_tracking.md` — Prevent passive location leaks and metadata trails
 - `checklist.md` — OPSEC audit checklist for mobile devices
