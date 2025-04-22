@@ -8,9 +8,9 @@
 
 - `iphone_cheatsheet.md` — iOS 17+ privacy hardening guide
 - `android_cheatsheet.md` — General Android privacy & security guide
-
-Soon published:
 - `tools.md` — Recommended open-source software for secure comms, storage, and browsing
+
+Coming soon:
 - `burner_guide.md` — How to create and use burner identities/devices safely
 - `border_crossing.md` — Mobile OPSEC tips for crossing hostile checkpoints
 - `wifi_tracking.md` — Prevent passive location leaks and metadata trails
