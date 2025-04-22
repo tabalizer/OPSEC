@@ -34,7 +34,8 @@ If you’re crossing borders, organizing locally, reporting injustice, or simply
 - `burner_guide.md` — How to create and use burner identities/devices safely  
 - `border_crossing.md` — Mobile OPSEC tips for crossing hostile checkpoints  
 - `wifi_tracking.md` — Prevent passive location leaks and metadata trails  
-- `checklist.md` — OPSEC audit checklist for mobile devices  
+- `checklist.md` — OPSEC audit checklist for mobile devices
+- `Sock Puppet Cheat Sheet` - Sock Puppet guide (general)
 
 ---
 
