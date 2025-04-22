@@ -3,6 +3,10 @@
 > For any Android device (Samsung, Pixel, Xiaomi, etc.) running Android 12+, here's how to configure it for privacy, security, and pseudonymous use in Europe.
 
 ---
+⚠️ **Disclaimer – Educational Use Only**
+This content is provided strictly for **educational, informational, and defensive purposes**. It is intended to help individuals protect their privacy, maintain digital hygiene, and understand security best practices in legitimate contexts.
+This is **not** a guide for criminal activity, illegal behavior, or evasion of lawful authority. Any misuse of this information is solely the responsibility of the user. The authors and contributors do **not** condone or support unlawful conduct in any form.
+---
 
 ## ✨ Initial Setup & Identity Protection
 
