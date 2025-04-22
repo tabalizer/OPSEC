@@ -36,6 +36,7 @@ If you’re crossing borders, organizing locally, reporting injustice, or simply
 - `wifi_tracking.md` — Prevent passive location leaks and metadata trails  
 - `checklist.md` — OPSEC audit checklist for mobile devices
 - `Sock Puppet Cheat Sheet` - Sock Puppet guide (general)
+- `travel opsec cheat sheet`- Travel OPSEC (general)
 
 ---
 
