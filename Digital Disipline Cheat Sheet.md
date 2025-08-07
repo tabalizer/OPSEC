@@ -8,7 +8,9 @@
 
 In today’s battlespace, **your phone is a sensor, your watch is a beacon, and your digital life is a liability**.
 Modern adversaries no longer rely on human scouts or intercepted radio chatter. They use **AI, electronic warfare (EW), and open-source intelligence (OSINT)** to map your movements, relationships, and behaviors — in real time. A single Bluetooth ping or geo-tagged photo can initiate a kill chain that ends in **artillery on your position within minutes**.
-“Going black” — the practice of completely cutting digital emissions — is no longer optional in contested environments. It’s a **core survival tactic**, as critical as camouflage, radio silence, or movement discipline.
+
+**“Going black”** — the practice of completely cutting digital emissions — is no longer optional in contested environments. It’s a **core survival tactic**, as critical as camouflage, radio silence, or movement discipline.
+
 If you’re emitting, you’re being watched. If you’re watched, you can be targeted.  
 
 ---
