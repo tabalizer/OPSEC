@@ -5,98 +5,136 @@
 
 ---
 
-## 🎯 What is a Sock Puppet?
-
-A **sock puppet** is a fully separated, false digital identity used for:
-
-- Anonymous research  
-- Whistleblowing  
-- Red team testing  
-- Secure persona separation (journalism, activism, etc.)  
-- Risky online interactions  
-
-> The goal: **Zero overlap** with your real identity (metadata, behavior, networks, accounts).
+## Core rule (one line)
+Isolate **Device ⇄ Network ⇄ Identity ⇄ Behavior**. Plan objective, threat model, and burn before creation.
 
 ---
 
-## 🛠️ Setup Checklist
-
-| Component       | Guidance |
-|----------------|----------|
-| **Device**      | Use a burner phone or clean virtual machine (Tails, Whonix, or hardened Linux). Never mix real logins or IPs. |
-| **Connection**  | Use **Tor** or a no-logs **VPN over Tor**. Avoid home/work IP addresses. Public Wi-Fi + Tor is best (with MAC spoofing). |
-| **OS Fingerprint** | Avoid default user agents. Use hardened browsers or spoofing (Tor Browser randomizes this by default). |
-| **Keyboard Language** | Set device language and keyboard layout to match your alias’ origin (i.e. not your native setup). |
-| **Time Zone**   | Match the sock puppet’s fake location. Don’t leave browser/system clock in your actual time zone. |
-| **Fonts & Locale** | Disable or spoof font fingerprinting. Clean machines only. |
+## One-line SOP (copy / paste)
+Isolated device → private network (public access → VPN/ Tor) → puppet email + alias → temp number (only if required) → verify → enable TOTP/hardware key → seed slowly → monitor → burn on schedule.
 
 ---
 
-## 🧬 Identity Creation
-
-| Element          | Strategy |
-|------------------|----------|
-| **Name**         | Use a common name consistent with chosen country/region. Avoid famous names. |
-| **Birthday**     | Random, realistic age (20–40 is safest). Avoid your real DOB, even reversed. |
-| **Backstory**    | Build a 2–3 sentence believable persona. Avoid extremes (no spies, billionaires). Example: “Alex K., 28, graphic designer from Poland.” |
-| **Profile Image**| Use AI-generated faces (e.g. [thispersondoesnotexist.com](https://thispersondoesnotexist.com)). Never use stock photos or stolen images. |
-| **Location**     | Pick a mid-size city in your target region. Avoid capitals or rural towns. Match it to your IP, time zone, keyboard. |
-| **Gender/Pronouns** | Use what fits your persona. Keep it consistent across platforms. |
+## Top 5 priorities (do these first)
+1. OPSEC plan: objective, threat model, accepted risks, burn date, encrypted OPSEC log.  
+2. Device separation: physical burner **or** live OS (Tails) / Whonix VM on separate hardware; verify checksums.  
+3. Network separation: public Wi-Fi or separate mobile data → optional VPN → Tor for account creation. Never use home/work IPs.  
+4. Credentials: ProtonMail/Tutanota + SimpleLogin/AnonAddy aliases; KeePassXC offline vault.  
+5. Auth hardening: enable TOTP and/or YubiKey immediately after verification; treat SMS as temporary.
 
 ---
 
-## 📧 Email & Number
-
-- Use **ProtonMail**, **Tutanota**, or **SimpleLogin** aliases.
-- Sign up over Tor or VPN.
-- Never reuse emails between puppets or between real and puppet.
-- Use VoIP services like **MySudo**, **Hushed**, or **TextNow** (over VPN) for SMS verification.
-- Use email aliasing tools (**AnonAddy**, **SimpleLogin**) for throwaway accounts.
-
----
-
-## 🔐 Account Creation Tips
-
-| Service Type     | Notes |
-|------------------|-------|
-| **Social Media** | Start with “seed” platforms (Reddit, Twitter/X, Discord). Use slow build-up. |
-| **Activity Logs**| Avoid empty puppets — post a few benign comments to blend in. |
-| **Username**     | Never overlap with real life. Use a name generator if needed. No inside jokes. |
-| **Password**     | Unique, long, stored in an isolated password manager (KeePass/KeePassXC offline vault). |
-| **Behavior**     | Don’t post in your real writing style. Use different slang, tone, and time-of-day activity. |
-| **Browser Fingerprint** | Use Tor Browser or Firefox with containers (and canvas/font blocking). |
+## Minimum ordered checklist (execute in sequence)
+1. Create OPSEC plan and burn policy.  
+2. Prepare isolated device (burner phone or Tails/Whonix VM).  
+3. Acquire isolated network access (public Wi-Fi or prepaid mobile data).  
+4. Create puppet email + alias, unique password.  
+5. Obtain temp number per decision guide and use only for initial SMS.  
+6. Verify service, add TOTP/hardware key, remove phone from profile if allowed.  
+7. Seed account: 5–15 benign interactions over days to build credibility.  
+8. Monitor signals; rotate or burn on schedule.
 
 ---
 
-## 🚩 Don’ts (Common Mistakes)
+## Temporary phone numbers — decision & practical SOP
 
-- ❌ Logging in from home or work Wi-Fi  
-- ❌ Reusing usernames, photos, or email formats  
-- ❌ Talking about real events you’ve been involved in  
-- ❌ Linking to real accounts or devices (via QR codes, calendar invites, etc.)  
-- ❌ Leaving real EXIF/location data in shared images or docs  
-- ❌ Using payment methods tied to you (card, bank, crypto wallet)
+**Selection guide (threat → practicality):**
+- **High OPSEC:** cash-bought prepaid physical SIM (best separation if lawful).  
+- **Moderate OPSEC:** reputable paid burner apps (Hushed, Burner, MySudo) bought anonymously.  
+- **Low OPSEC / convenience:** mainstream VoIP (TextNow, Google Voice) — often blocked.  
+- **Avoid for serious use:** free public “receive-SMS” websites.
 
----
+**Acquisition SOP (step-by-step):**
+1. Choose method per threat model; log provider and burn date.  
+2. **Cash SIM:** buy with cash at unrelated retailer → insert only in burner device → activate over public Wi-Fi or prepaid data. Confirm local legality.  
+3. **Burner app:** register on burner device over Tor/VPN → pay with privacy-preserving method (prepaid/ gift card or lawful crypto) → use app only on burner device.  
+4. Use number for initial SMS verification only → immediately provision TOTP or register a YubiKey → remove number from profile if possible.  
+5. Set lifecycle (30–90 days). Burn: unlink number, delete/neutralize account, factory reset device, destroy SIM.
 
-## 🧹 Maintenance & Burn
-
-- 🧼 Keep your sock puppet active and credible (slow, consistent usage).
-- 🔥 If compromised or exposed:  
-  - Log out  
-  - Delete accounts (if safe)  
-  - Change device/MAC/IP  
-  - Burn identity permanently and start over
+**Hard rules:** one number per puppet; never link to your real device, identity, or payment method.
 
 ---
 
-## ✅ Summary
-
-| Goal | Tool |
-|------|------|
-| Anonymized signup | Tor + ProtonMail + VoIP number |
-| Fingerprint isolation | Tails, Whonix, Firefox with spoofing |
-| Behavior separation | Different writing style, time zone, habits |
-| Metadata control | No reuse of identifiers, accounts, devices |
+## Device & network — practical setup
+- **Physical burner:** keep solely for puppet; no personal accounts.  
+- **Live OS / VM:** Tails (live USB) or Whonix (VM) on isolated hardware; verify images & signatures.  
+- **Network flow:** public Wi-Fi / prepaid mobile data → optional VPN → Tor Browser for account actions.  
+- **MAC & IDs:** spoof MAC when supported; disable auto backups/auto-connect features.
 
 ---
+
+## Email, aliasing & password hygiene
+- Use **ProtonMail** or **Tutanota** for puppet email.  
+- Use **SimpleLogin** or **AnonAddy** for per-service aliases.  
+- Generate long, unique passwords; store in **KeePassXC** (local vault) on the burner device or encrypted removable storage.  
+- Immediately enable **TOTP** and/or **YubiKey** after verification; treat SMS as fallback only.
+
+---
+
+## Image & file hygiene — exact commands to run (practical)
+- Inspect metadata:
+    exiftool image.jpg
+- Remove all metadata (overwrite original):
+    exiftool -overwrite_original -all= image.jpg
+- Remove GPS only:
+    exiftool -overwrite_original -gps:all= -xmp:geotag= image.jpg
+- Re-render cleaned image: open cleaned file on burner VM and take a screenshot (removes hidden thumbnails/maker notes). Re-check with `exiftool` to confirm.
+
+---
+
+## Behavioral OPSEC — concrete, actionable rules
+- **Timing:** post during local hours consistent with puppet timezone; avoid burst posting.  
+- **Style:** change sentence length, punctuation, idioms; use a simple style template and vary it.  
+- **Social graph:** add a few benign contacts; make small interactions before outreach.  
+- **No cross-linking:** never share cloud links, calendar invites, QR codes, or files that can map to your real identity.  
+- **Media hygiene:** never upload original phone photos—use AI-generated or licensed images, clean them, then re-render.
+
+---
+
+## Incident response & burn procedure (precise steps)
+1. **Contain:** isolate device from networks; revoke sessions via platform controls if possible.  
+2. **Audit:** export a minimal encrypted timeline/log for lessons learned (store separate from identifiers).  
+3. **Account actions:** change profile data to neutral, then delete account where safe (note: deletion may be delayed or incomplete).  
+4. **Device & SIM disposal:** factory reset phone, securely wipe VM images and keys, physically destroy SIM (cut/shred).  
+5. **Post-burn verification:** monitor for residual activity or re-linkage attempts; rotate any related credentials.
+
+---
+
+## Templates (copy / paste)
+
+**Puppet checklist (single line):**
+
+PuppetName | Country | City | AgeRange | Email(proton) | Alias(simplelogin) | Number(provider) | 2FA(TOTP/YubiKey) | BurnDate(YYYY-MM-DD)
+
+**Temp-number SOP (single line):**
+
+Buy cash SIM → activate on burner over public Wi-Fi/Tor → verify → enable TOTP/YubiKey → remove phone from profile → set burn date
+
+---
+
+## Recommended toolset (purpose mapped)
+- **Anonymity / OS:** Tor Browser; Tails (live USB); Whonix (VM).  
+- **Email & aliases:** ProtonMail; Tutanota; SimpleLogin; AnonAddy.  
+- **Temp numbers:** Hushed; Burner; MySudo (paid). Avoid free SMS receivers.  
+- **Metadata:** ExifTool (CLI).  
+- **Passwords:** KeePassXC (offline vault).  
+- **2FA / hardware:** YubiKey + Authenticator apps (TOTP).  
+- **Guides:** EFF — Surveillance Self-Defense; PrivacyTools.io for threat modeling.
+
+---
+
+## Quick risk & legal notes
+- SMS is interceptable and increasingly blocked by platforms; prefer TOTP / hardware keys for ongoing access.  
+- SIM registration and purchase laws vary—verify local regulations before buying/activating unregistered SIMs. Consult legal counsel for sensitive or high-risk operations.  
+- This guide is defensive; do not use it to commit illegal acts.
+
+---
+
+## Sources & further reading (authoritative starting points)
+Tor Project; Tails Project; ProtonMail / Tutanota; SimpleLogin / AnonAddy; Hushed / Burner / MySudo; ExifTool; KeePassXC; Yubico (YubiKey); EFF Surveillance Self-Defense; PrivacyTools.io. (Check official docs for installation, updates and legal constraints.)
+
+---
+
+## Final one-line rule
+Plan first, isolate every identifier, use temp numbers only for verification, migrate to TOTP/hardware keys, clean & re-render media, set & execute a burn plan, and operate within the law and platform policies.
+```
